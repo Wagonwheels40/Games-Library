@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Game Library</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Genre</th>
+                <th>Platform</th>
+            </tr>
+        </thead>
+        <tbody id="games-table-body">
+            <tr>
+                <td>Resident Evil</td>
+                <td>Survival-Horror</td>
+                <td>PC</td>
+            </tr>
+            <tr>
+                <td>Counter Strike</td>
+                <td>Shooter</td>
+                <td>PC</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button id="add-game-btn" class="btn-lrg">Add</button>
+    
+    <script src="script.js"></script>
+    <script>
+        let addGameBtn = document.getElementById("add-game-btn");
+        addGameBtn.addEventListener("click", addGame);
+    </script>
+</body>
+</html>

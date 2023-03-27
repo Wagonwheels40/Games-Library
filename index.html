@@ -31,12 +31,15 @@
         </tbody>
     </table>
 
-    <button id="add-game-btn" class="btn-lrg">Add</button>
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title">
+    <label for="genre">Genre:</label>
+    <input type="text" id="genre" name="genre">
+    <label for="platform">Platform:</label>
+    <input type="text" id="platform" name="platform">
+    <button id="add-platform-btn" class="btn-lrg">Add More</button>
+    <button id="remove-button" class="remove-button">Remove</button>
     
     <script src="script.js"></script>
-    <script>
-        let addGameBtn = document.getElementById("add-game-btn");
-        addGameBtn.addEventListener("click", addGame);
-    </script>
 </body>
 </html>

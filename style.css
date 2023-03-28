@@ -2,5 +2,39 @@ body {
     font-size: 20px;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
     color: #fff;
-    background-color: #1e2227;
+    background-color: #f1a923;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    color: black;
+}
+
+.table-wrapper {
+    margin: 0 auto;
+    background-color: black;
+    max-width: 25%;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #039c15;
+    border-color: #0f6302;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0e5001;
+    border-color: #033301;
 }

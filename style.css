@@ -5,6 +5,15 @@ body {
     background-color: #f1a923;
 }
 
+th {
+    padding-right: 250px;
+}
+
+td {
+    word-wrap: break-word;
+    padding-bottom: 10px;
+}
+
 h1 {
     text-align: center;
 }
@@ -21,13 +30,19 @@ input[type="text"] {
 .table-wrapper {
     margin: 0 auto;
     background-color: black;
-    max-width: 25%;
+    max-width: 60%;
     -webkit-overflow-scrolling: touch;
     border-radius: 5px;
     padding: 25px;
 }
 
 .btn-primary {
+    color: #fff;
+    background-color: #039c15;
+    border-color: #0f6302;
+}
+
+.btn-outline-danger {
     color: #fff;
     background-color: #039c15;
     border-color: #0f6302;

@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Game Library</h1>
+    <div class="container"><img src="controller.png" id="game" alt="game controller">
+        <h1>Game Library</h1>
+    </div>
     <div class="table-wrapper">
         <table>
             <thead>
@@ -17,7 +19,7 @@
                     <th>Title</th>
                     <th>Genre</th>
                     <th>Platform</th>
-                    <th>Edit/Delete</th>
+                    <th>Remove</th>
                 </tr>
             </thead>
             <tbody id="games-table-body">
@@ -39,9 +41,9 @@
         <input type="text" id="platform" name="platform" placeholder="PC">
         <br>
         <button type="button" id="add-platform-btn" class="btn btn-primary">Add More</button>
-        <button type="button" id="add-platform-btn-save" class="btn btn-primary">Save Library</button>
     </div>
     
     <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
